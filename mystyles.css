@@ -17,6 +17,10 @@ q, blockquote {
     margin: 80px 0 80px 0;
 }
 
+q {
+    display: inline-block;
+}
+
 table, th, td {
     border: solid black 2px;
     border-collapse: collapse;
@@ -48,10 +52,10 @@ a:visited {
     font-style: italic;
 }
 
-.farmer {
-
+.farmercol {
+ color: red;
 }
 
-.villagers {
-    
+.villagercol {
+color: orange;
 }
