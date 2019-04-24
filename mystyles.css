@@ -87,14 +87,19 @@ p:first-of-type {
 
 img {
     float: left;
-    margin: 10px;
     width: 50%;
-    display: inline-block;
+    
 
 }
 
 .introduction {
-    float: right;
+   text-align: center;
+   width: 50%;
+   float: right;
+}
+
+.midtext {
     display: inline-block;
 }
+
 
