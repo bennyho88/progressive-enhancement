@@ -26,11 +26,19 @@ table, th, td {
     border-collapse: collapse;
 }
 
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     letter-spacing: 0.1em;
-    color: darkgreen;
+    color: darkblue;
 }
 
 a {
@@ -59,3 +67,34 @@ a:visited {
 .villagercol {
 color: orange;
 }
+
+li:first-of-type:nth-child(2){
+background-color: yellow;
+}
+
+.good {
+color: green;
+text-transform: capitalize;
+}
+.bad {
+color: red;
+text-transform: capitalize;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    margin: 10px;
+    width: 50%;
+    display: inline-block;
+
+}
+
+.introduction {
+    float: right;
+    display: inline-block;
+}
+
